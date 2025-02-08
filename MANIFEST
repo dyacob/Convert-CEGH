@@ -1,8 +1,9 @@
-Changes
+Changes.md
 LICENSE
 MANIFEST
-Makefile.PL
-README
+Build.PL
+CONTRIBUTING.md
+README.md
 examples/gematria.pl
 examples/transliterate.pl
 lib/Convert/CEGH.pm

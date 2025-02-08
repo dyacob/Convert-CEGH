@@ -12,7 +12,7 @@ use vars qw( $አበገደ $ሀለሐመ  $תיבפלא $ΑΛΦΑΒΕΤ %Gematri
 
 	@EXPORT_OK = qw( enumerate );
 
-	$VERSION = "0.04";
+	$VERSION = "0.05";
 
 	#
 	# Gematria Data:
