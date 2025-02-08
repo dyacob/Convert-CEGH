@@ -15,19 +15,20 @@ name: Convert-CEGH
 provides:
   Convert::CEGH:
     file: lib/Convert/CEGH.pm
-    version: '0.04'
+    version: '0.06'
   Convert::CEGH::Gematria:
     file: lib/Convert/CEGH/Gematria.pm
-    version: '0.04'
+    version: '0.06'
   Convert::CEGH::Transliterate:
     file: lib/Convert/CEGH/Transliterate.pm
-    version: '0.04'
+    version: '0.06'
 requires:
   Regexp::Ethiopic: '0.10'
+  perl: v5.6.1
 resources:
   bugtracker: https://github.com/dyacob/Convert-CEGH/issues
   homepage: https://github.com/dyacob/Convert-CEGH
   license: http://dev.perl.org/licenses/
   repository: https://github.com/dyacob/Convert-CEGH.git
-version: '0.04'
+version: '0.06'
 x_serialization_backend: 'CPAN::Meta::YAML version 0.018'

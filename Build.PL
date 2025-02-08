@@ -9,7 +9,10 @@ my $builder = Module::Build->new(
 	dist_abstract		=> "Gematria and Transliteration for Coptic, Ethiopic, Greek and Hebrew.",
 	release_status		=> 'stable',
 	configure_requires	=> { 'Module::Build' => 0.42 },
-	requires 		=> { 'Regexp::Ethiopic' => '0.10' },
+	requires 		=> {
+		'perl'			=> '5.6.1',
+		'Regexp::Ethiopic'	=> '0.10'
+	},
 	license			=> 'perl',
 	add_to_cleanup		=> [ 'Convert-CEGH-*' ],
 	create_makefile_pl	=> 0,  # change to 1 if desired.
